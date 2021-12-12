@@ -103,7 +103,7 @@ module.exports = {
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'kaokei/kaokei.github.io', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -144,15 +144,15 @@ module.exports = {
 
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: 'kaokei', // 必需
+      link: 'https://github.com/kaokei', // 可选的
     },
 
     // 博主信息，显示在首页侧边栏
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      avatar: 'https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png',
+      name: 'kaokei',
+      slogan: '好好学习，天天向上',
     },
 
     // 社交图标，显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social
@@ -162,12 +162,12 @@ module.exports = {
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:kaokei.rst@gmail.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi',
+          link: 'https://github.com/kaokei',
         },
         {
           iconClass: 'icon-erji',
@@ -181,7 +181,7 @@ module.exports = {
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'kaokei | <a href="https://github.com/kaokei/kaokei.github.io/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
     },
 
     // 插入hmtl(广告)模块
@@ -245,7 +245,7 @@ module.exports = {
           },
           {
             title: '通过百度搜索本站的',
-            frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+            frontUrl: 'https://www.baidu.com/s?wd=site%3Akaokei.com%20',
           },
         ],
       },
@@ -297,8 +297,8 @@ module.exports = {
           clientID: 'a6e1355287947096b88b',
           clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: 'kaokei', // GitHub仓库所有者
+          admin: ['kaokei'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
