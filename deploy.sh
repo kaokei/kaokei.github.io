@@ -12,10 +12,16 @@ cd docs/.vuepress/dist
 # deploy to github pages
 # echo 'b.xugaoyi.com' > CNAME
 
+echo GITHUB_TOKEN
+
+echo $GITHUB_TOKEN
+
 if [ -z "$GITHUB_TOKEN" ]; then
+  echo 123
   msg='deploy'
   githubUrl=git@github.com:kaokei/kaokei.github.io.git
 else
+  echo 456
   msg='来自github actions的自动部署'
   githubUrl=https://kaokei:${GITHUB_TOKEN}@github.com/kaokei/kaokei.github.io.git
   git config --global user.name "kaokei"
