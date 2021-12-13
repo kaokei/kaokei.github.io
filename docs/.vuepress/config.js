@@ -203,7 +203,7 @@ module.exports = {
     [
       'script',
       {
-        'data-ad-client': 'ca-pub-7828333725993554',
+        'data-ad-client': 'ca-pub-3912182864105528',
         async: 'async',
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
       },
