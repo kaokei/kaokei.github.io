@@ -8,18 +8,16 @@
   <a href="https://www.npmjs.com/package/vuepress-theme-vdoing"><img alt="npm" src="https://img.shields.io/npm/v/vuepress-theme-vdoing"></a>
   <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/stargazers"><img src="https://img.shields.io/github/stars/xugaoyi/vuepress-theme-vdoing?logo=ReverbNation&logoColor=rgba(255,255,255,.6)" alt="GitHub stars"></a>
 
-
-
 </p>
 
 <h2 align="center">vuepress-theme-vdoing</h2>
 
-* [文档 (国内源)](https://doc.xugaoyi.com/)
-* [文档 (github源)](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
-* [效果：Evan's blog](https://xugaoyi.com/)
-
+- [文档 (国内源)](https://doc.xugaoyi.com/)
+- [文档 (github 源)](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
+- [效果：Evan's blog](https://xugaoyi.com/)
 
 ## 介绍
+
 1. 这个主题的初衷是打造一个好用的、面向程序员的`知识管理工具`
 2. 轻松构建一个`结构化`的知识库，让你的知识海洋像一本本书一样清晰易读。
 3. 博客功能提供一种知识的`碎片化`形态，并支持个性化博客配置。
@@ -28,11 +26,11 @@
 [**更新日志**](https://github.com/xugaoyi/vuepress-theme-vdoing/releases)
 
 ## 这个主题可以做什么？
-* 案例1：[知识库兼博客站](https://xugaoyi.com/)
-* 案例2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
-* 案例3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
-* 案例4：[文档站](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
 
+- 案例 1：[知识库兼博客站](https://xugaoyi.com/)
+- 案例 2：[仅博客站](https://xugaoyi.github.io/vdoing-demo-blog/)
+- 案例 3：[仅知识库](https://xugaoyi.github.io/vdoing-demo-repository/)
+- 案例 4：[文档站](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
 
 ## 快速上手
 
@@ -49,8 +47,8 @@ npm install # or yarn install
 # develop
 npm run dev # or yarn dev
 ```
-## ⚡️未来...
 
+## ⚡️ 未来...
 
 期待 [VuePress v2.0](https://github.com/vuepress/vuepress-next) 以及 [VitePress](https://github.com/vuejs/vitepress) 的正式发布...
 
@@ -60,7 +58,7 @@ npm run dev # or yarn dev
 
 如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
 
-1. *Star* 并 分享这个项目 :rocket:
+1. _Star_ 并 分享这个项目 :rocket:
 2. 保留主题 footer(页脚) 的主题链接 :D
 3. 关注公众号`yqyjs666`，回复`前端资源`，可获取 [前端学习资源](https://github.com/xugaoyi/blog-gitalk-comment/wiki/Front-end-Study)
 <!-- 4. 轻轻点击一次页面广告 ✨ -->
@@ -68,29 +66,56 @@ npm run dev # or yarn dev
 
 谢谢！ :heart:
 
-| 微信赞赏 | 微信 | 支付宝 |
-| :---: | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150>| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
+|                                                  微信赞赏                                                  |                                                       微信                                                        |                                                      支付宝                                                       |
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
+| <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200523131533.jpg" alt="赞赏码" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113708.jpg" alt="Wechat QRcode" width=150> | <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200410113707.jpg" alt="Alipay QRcode" width=150> |
 
-二维码没有正常显示？点 [这里😎](https://doc.xugaoyi.com/pages/1b12ed/)
+二维码没有正常显示？点 [这里 😎](https://doc.xugaoyi.com/pages/1b12ed/)
 
 ## 致谢
+
 :heart:感谢支持这个项目的朋友
 
 :heart:感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/xugaoyi/vuepress-theme-vdoing/graphs/contributors)
 
-## Vdoing官方交流群
+## Vdoing 官方交流群
+
 群号：694387113
 
 <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200712122307.jpg" alt="群号：694387113" width="200">
 
 ## 公众号
-`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如80、90后朋友小时候玩的小霸王游戏机：<https://game.xugaoyi.com>，还有更多好玩的等你去探索吧~
+
+`有趣研究社`是本人对各种有趣的、好玩的、沙雕的创意和想法以在线小网站或者文章的形式表达出来，比如 80、90 后朋友小时候玩的小霸王游戏机：<https://game.xugaoyi.com>，还有更多好玩的等你去探索吧~
 
 <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/扫码_搜索联合传播样式-标准色版.1wp8gd1mhjhc.jpg"  style="width:370px;" />
 <!-- <img src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store@master/blog/qrcode.zdqv9mlfc0g.jpg"  style="width:30%;" /> -->
 
 ## 许可证
+
 [MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
 
 Copyright (c) 2019-present Evan Xu
+
+## kaokei's blog
+
+默认部署在 github page 上，访问域名是`kaokei.github.io`。
+
+同时备份部署在 vercel.app 上，访问域名是`www.kaokei.com`。
+
+注意到 vercel 上的部署流程并没有任何构建流程，只是订阅了当前项目的 main 分支，然后直接部署 main 分支的内容即可。
+vercel 中相关构建命令如下：
+
+```
+BUILD COMMAND: echo 'npm run build'
+OUTPUT DIRECTORY: .
+INSTALL COMMAND: echo 'npm install'
+```
+
+同时配置自定义域名为`www.kaokei.com`。当然还需要在 dns 中配置 CNAME 记录，如下：
+
+```
+CNAME www cname.vercel-dns.com
+```
+
+当然也需要在 vercel 中配置`www.kaokei.com`，这个不用多说，简单配置一下即可。
