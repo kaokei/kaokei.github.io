@@ -14,7 +14,7 @@
 
 - [文档 (国内源)](https://doc.xugaoyi.com/)
 - [文档 (github 源)](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
-- [效果：Evan's blog](https://xugaoyi.com/)
+- [效果：kaokei's blog](https://xugaoyi.com/)
 
 ## 介绍
 
@@ -95,7 +95,7 @@ npm run dev # or yarn dev
 
 [MIT](https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE)
 
-Copyright (c) 2019-present Evan Xu
+Copyright (c) 2019-present kaokei
 
 ## kaokei's blog
 

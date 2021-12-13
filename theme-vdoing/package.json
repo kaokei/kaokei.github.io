@@ -1,17 +1,17 @@
 {
-  "name": "vuepress-theme-vdoing",
+  "name": "kaokei.github.io",
   "version": "1.8.5",
-  "description": "Vdoing theme for VuePress. 一个基于VuePress的知识管理兼博客主题。",
+  "description": "kaokei's blog.",
   "author": {
-    "name": "gaoyi(Evan) Xu"
+    "name": "kaokei"
   },
-  "homepage": "https://github.com/xugaoyi/vuepress-theme-vdoing#readme",
+  "homepage": "https://github.com/kaokei/kaokei.github.io#readme",
   "bugs": {
-    "url": "https://github.com/xugaoyi/vuepress-theme-vdoing/issues"
+    "url": "https://github.com/kaokei/kaokei.github.io/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xugaoyi/vuepress-theme-vdoing.git"
+    "url": "git+https://github.com/kaokei/kaokei.github.io.git"
   },
   "dependencies": {
     "@better-scroll/core": "^2.0.0-beta.6",
@@ -40,8 +40,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "maintainers": [{
-    "name": "Evan xu",
-    "email": "894072666@qq.com"
-  }]
+  "maintainers": [
+    {
+      "name": "kaokei",
+      "email": "kaokei.rst@gmail.com"
+    }
+  ]
 }
