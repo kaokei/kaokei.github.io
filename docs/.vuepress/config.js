@@ -199,6 +199,7 @@ module.exports = {
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: 'code-9N9fEhS90Y' }], // 百度统计的站长验证（你可以去掉）
+    ['meta', { name: 'baidu_union_verify', content: '1edbab67fb9cc5f891cf345fd76e23b8' }], // 百度联盟的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     [
       'script',
