@@ -213,20 +213,6 @@ module.exports = {
     [
       "script",
       {
-        async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-EYD6NYPT3M",
-      },
-    ], // 谷歌分析的sdk
-    [
-      "script",
-      {},
-      [
-        "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-EYD6NYPT3M');",
-      ],
-    ], // 谷歌分析的初始化代码
-    [
-      "script",
-      {
         "data-ad-client": "ca-pub-3912182864105528",
         async: "async",
         src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
@@ -311,12 +297,6 @@ module.exports = {
       },
     ],
     [
-      "vuepress-plugin-baidu-tongji", // 百度统计 （你可以去掉）
-      {
-        hm: "35570fd61dde16af9949ec6af1c52ff8",
-      },
-    ],
-    [
       "vuepress-plugin-comment", // 评论
       {
         choosen: "gitalk",
@@ -342,6 +322,15 @@ module.exports = {
           const dayjs = require("dayjs"); // https://day.js.org/
           return dayjs(timestamp).format("YYYY/MM/DD, HH:mm:ss");
         },
+      },
+    ],
+    [
+      "@kaokei/vuepress-plugin-tongji",
+      {
+        hm: "35570fd61dde16af9949ec6af1c52ff8", // 百度统计
+        gtag: "G-EYD6NYPT3M", // google gtag 统计
+        cnzz: "1280697181", // CNZZ统计对应的id
+        cnzz_web: "1280697181", // CNZZ统计对应的web_id
       },
     ],
   ],
