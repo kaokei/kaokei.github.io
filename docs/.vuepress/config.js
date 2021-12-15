@@ -201,14 +201,14 @@ module.exports = {
           "前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown",
       },
     ],
-    ["meta", { name: "baidu-site-verification", content: "code-9N9fEhS90Y" }], // 百度统计的站长验证（你可以去掉）
-    [
-      "meta",
-      {
-        name: "baidu_union_verify",
-        content: "1edbab67fb9cc5f891cf345fd76e23b8",
-      },
-    ], // 百度联盟的站长验证（你可以去掉）
+    // ["meta", { name: "baidu-site-verification", content: "code-9N9fEhS90Y" }], // 百度统计的站长验证（你可以去掉）
+    // [
+    //   "meta",
+    //   {
+    //     name: "baidu_union_verify",
+    //     content: "1edbab67fb9cc5f891cf345fd76e23b8",
+    //   },
+    // ], // 百度联盟的站长验证（你可以去掉）
     ["meta", { name: "theme-color", content: "#11a8cd" }], // 移动浏览器主题颜色
     [
       "script",
@@ -327,7 +327,7 @@ module.exports = {
     [
       "@kaokei/vuepress-plugin-tongji",
       {
-        hm: "35570fd61dde16af9949ec6af1c52ff8", // 百度统计
+        hm: "9f9f1c76099d607f81d70747b83af59f", // 百度统计
         gtag: "G-EYD6NYPT3M", // google gtag 统计
         cnzz: "1280697181", // CNZZ统计对应的id
         cnzz_web: "1280697181", // CNZZ统计对应的web_id
