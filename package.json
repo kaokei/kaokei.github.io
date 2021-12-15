@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@kaokei/vuepress-plugin-tongji": "^1.0.1",
+    "@kaokei/vuepress-plugin-tongji": "^1.0.2",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
