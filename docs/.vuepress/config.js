@@ -2,6 +2,8 @@ const htmlModules = require("./config/htmlModules.js");
 
 //vuepress配置百度广告：https://www.sofineday.com/vuepress-baidu-advertisement.html#_4-%E9%85%8D%E7%BD%AE%E5%B9%BF%E5%91%8A
 
+// todo: 修改百度收录的账号。
+
 module.exports = {
   theme: "vdoing", // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
@@ -301,8 +303,8 @@ module.exports = {
       {
         choosen: "gitalk",
         options: {
-          clientID: "a6e1355287947096b88b",
-          clientSecret: "f0e77d070fabfcd5af95bebb82b2d574d7248d71",
+          clientID: "642d3441487709af2c66",
+          clientSecret: "3f1acfc48e7042fce4204021f6068beeb47fb374",
           repo: "blog-gitalk-comment", // GitHub 仓库
           owner: "kaokei", // GitHub仓库所有者
           admin: ["kaokei"], // 对仓库有写权限的人
