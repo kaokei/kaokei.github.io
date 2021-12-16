@@ -110,6 +110,7 @@ module.exports = {
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: "docs", // 编辑的文件夹
+    docsBranch: "docs",
     editLinks: true, // 启用编辑
     editLinkText: "编辑",
 
@@ -203,7 +204,7 @@ module.exports = {
           "前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown",
       },
     ],
-    // ["meta", { name: "baidu-site-verification", content: "code-9N9fEhS90Y" }], // 百度统计的站长验证（你可以去掉）
+    ["meta", { name: "baidu-site-verification", content: "code-JzonidIhwe" }], // 百度统计的站长验证（你可以去掉）
     // [
     //   "meta",
     //   {
@@ -232,36 +233,7 @@ module.exports = {
 
     "vuepress-plugin-baidu-autopush", // 百度自动推送
 
-    // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-    [
-      "thirdparty-search",
-      {
-        thirdparty: [
-          // 可选，默认 []
-          {
-            title: "在MDN中搜索",
-            frontUrl: "https://developer.mozilla.org/zh-CN/search?q=", // 搜索链接的前面部分
-            behindUrl: "", // 搜索链接的后面部分，可选，默认 ''
-          },
-          {
-            title: "在Runoob中搜索",
-            frontUrl: "https://www.runoob.com/?s=",
-          },
-          {
-            title: "在Vue API中搜索",
-            frontUrl: "https://cn.vuejs.org/v2/api/#",
-          },
-          {
-            title: "在Bing中搜索",
-            frontUrl: "https://cn.bing.com/search?q=",
-          },
-          {
-            title: "通过百度搜索本站的",
-            frontUrl: "https://www.baidu.com/s?wd=site%3Akaokei.com%20",
-          },
-        ],
-      },
-    ],
+    "fulltext-search", // 全文搜索
 
     [
       "one-click-copy", // 代码块复制按钮
