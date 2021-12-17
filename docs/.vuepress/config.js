@@ -75,11 +75,11 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
-    // bodyBgImg: [
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-    //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
-    // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
+    bodyBgImg: [
+      'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
+      'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
+      'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+    ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -110,29 +110,29 @@ module.exports = {
     blogger: {
       avatar:
         "https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png",
-      name: "kaokei",
-      slogan: "好好学习，天天向上",
+      // name: "kaokei",
+      // slogan: "好好学习，天天向上",
     },
 
     // 社交图标，显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加
       icons: [
-        {
-          iconClass: "icon-youjian",
-          title: "发邮件",
-          link: "mailto:kaokei.rst@gmail.com",
-        },
-        {
-          iconClass: "icon-github",
-          title: "GitHub",
-          link: "https://github.com/kaokei",
-        },
-        {
-          iconClass: "icon-erji",
-          title: "听音乐",
-          link: "https://music.163.com/#/playlist?id=755597173",
-        },
+        // {
+        //   iconClass: "icon-youjian",
+        //   title: "发邮件",
+        //   link: "mailto:kaokei.rst@gmail.com",
+        // },
+        // {
+        //   iconClass: "icon-github",
+        //   title: "GitHub",
+        //   link: "https://github.com/kaokei",
+        // },
+        // {
+        //   iconClass: "icon-erji",
+        //   title: "听音乐",
+        //   link: "https://music.163.com/#/playlist?id=755597173",
+        // },
       ],
     },
 
