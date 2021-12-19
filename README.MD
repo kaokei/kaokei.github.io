@@ -119,3 +119,19 @@ CNAME www cname.vercel-dns.com
 ```
 
 当然也需要在 vercel 中配置`www.kaokei.com`，这个不用多说，简单配置一下即可。
+
+# 我的博客
+
+目前采用所有项目的博客文章都放到这一个 git 仓库中维护。
+
+## 写作方式
+
+访问路径是根据文件夹结构和文件名确定的。
+
+页面结构是在.vscode/config 文件中配置的，主要是 nav 导航栏和 sidebar 侧边栏配置。
+也就是说如果没有配置 nav 和 sidebar，那么就是普通的文章内容展示，就没有 nav 和 sidebar。
+
+nav 导航栏注意可以配置多层级的导航栏，可与配置直接配置外链到 github。
+
+sidebar 可以配置多层级的侧边栏。
+sidebar 可以配置不相关的页面在同一个 sidebar，但是实际上没有必要。
