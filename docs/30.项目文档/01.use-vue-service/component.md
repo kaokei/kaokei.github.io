@@ -1,6 +1,13 @@
 ---
 author: kaokei
 title: 如何使用类组件
+date: 2021-12-19 16:51:01
+permalink: /pages/a64f21/
+categories: 
+  - 项目文档
+  - use-vue-service
+tags: 
+  - 
 ---
 
 ## 简介

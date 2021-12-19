@@ -1,3 +1,13 @@
+---
+title: circular_dependency
+date: 2021-12-19 18:08:57
+permalink: /pages/46748c/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+---
 
 ### 循环依赖
 

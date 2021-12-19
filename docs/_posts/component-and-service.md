@@ -1,6 +1,13 @@
 ---
 author: kaokei
 title: 组件与服务
+date: 2021-12-19 16:52:54
+permalink: /pages/747704/
+sidebar: auto
+categories: 
+  - 随笔
+tags: 
+  - 
 ---
 
 ## option 组件，类组件和服务的关系

@@ -1,6 +1,13 @@
 ---
 author: kaokei
 title: 前端框架浅显对比
+date: 2021-12-19 16:52:54
+permalink: /pages/8b25d1/
+sidebar: auto
+categories: 
+  - 随笔
+tags: 
+  - 
 ---
 
 ## vue、react 以及 Angular 对比

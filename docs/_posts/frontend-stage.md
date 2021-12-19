@@ -1,6 +1,13 @@
 ---
 author: kaokei
 title: 前端发展各个阶段
+date: 2021-12-19 16:52:54
+permalink: /pages/37da4b/
+sidebar: auto
+categories: 
+  - 随笔
+tags: 
+  - 
 ---
 
 ## 前端的 4 个阶段
