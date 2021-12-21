@@ -1,3 +1,13 @@
+---
+title: gitee自动同步和部署
+date: 2021-12-21 18:45:32
+permalink: /pages/f9d7e8/
+sidebar: auto
+categories:
+  - 随笔
+tags:
+  - 
+---
 # gitee 自动同步和部署
 
 需要知道 gitee 的自动部署功能属于 gitee-pro 的特性。
