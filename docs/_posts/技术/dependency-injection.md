@@ -3,9 +3,9 @@ author: kaokei
 title: 依赖注入
 date: 2021-12-19 16:52:54
 permalink: /pages/6bada4/
-sidebar: auto
+sidebar: false
 categories: 
-  - 随笔
+  - 技术
 tags: 
   - 
 ---

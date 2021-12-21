@@ -18,16 +18,6 @@ module.exports = {
     // 导航配置
     nav: [
       {
-        text: "随笔",
-        link: "/note/",
-        items: [
-          { text: "鸡汤", link: "/note/soul-chicken-soup/" },
-          { text: "吐槽", link: "/note/tucao/" },
-          { text: "笑话", link: "/note/joke/" },
-          { text: "头脑风暴", link: "/note/brainstorming/" },
-        ],
-      },
-      {
         text: "系列笔记",
         link: "/series/",
         items: [

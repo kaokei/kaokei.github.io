@@ -3,9 +3,9 @@ author: kaokei
 title: 组件与服务
 date: 2021-12-19 16:52:54
 permalink: /pages/747704/
-sidebar: auto
+sidebar: false
 categories: 
-  - 随笔
+  - 技术
 tags: 
   - 
 ---
