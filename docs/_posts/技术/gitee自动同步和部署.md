@@ -1,0 +1,13 @@
+# gitee 自动同步和部署
+
+需要知道 gitee 的自动部署功能属于 gitee-pro 的特性。
+
+主要是借助 github 的 workflow 的能力。
+
+分别是 wearerequired/git-mirror-action@master 实现同步功能。
+
+yanglbme/gitee-pages-action@main 实现自动部署功能。
+
+## 参考这里
+
+[参考文档](https://gitee.com/yanglbme/gitee-pages-action)
