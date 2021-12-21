@@ -18,7 +18,7 @@ tags:
 
 yanglbme/gitee-pages-action@main 实现自动部署功能。
 
-test001
+test002
 
 ## 参考这里
 

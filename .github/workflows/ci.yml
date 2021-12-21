@@ -19,8 +19,6 @@ jobs:
         run: |
           npm install
           npm run build
-          cp -rf .github docs/.vuepress/dist/
-          ls -al docs/.vuepress/dist/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
