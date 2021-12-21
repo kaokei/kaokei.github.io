@@ -8,6 +8,8 @@
 
 yanglbme/gitee-pages-action@main 实现自动部署功能。
 
+test001
+
 ## 参考这里
 
 [参考文档](https://gitee.com/yanglbme/gitee-pages-action)
