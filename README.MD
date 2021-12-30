@@ -135,3 +135,15 @@ nav 导航栏注意可以配置多层级的导航栏，可与配置直接配置�
 
 sidebar 可以配置多层级的侧边栏。
 sidebar 可以配置不相关的页面在同一个 sidebar，但是实际上没有必要。
+
+## 域名规范
+
+目前可访问域名由这些。
+
+[https://kaokei.com](https://kaokei.com) 主域名，实际是指向了 github page 服务
+
+[https://www.kaokei.com](https://www.kaokei.com) 会自动重定向到主域名
+
+[https://kaokei.github.io](https://kaokei.github.io) 部署在 github page，会自动重定向到主域名
+
+[https://kaokei.gitee.io](https://kaokei.gitee.io) 部署在 gitee，国内访问会快一些

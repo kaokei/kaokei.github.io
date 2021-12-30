@@ -18,17 +18,6 @@ module.exports = {
     // 导航配置
     nav: [
       {
-        text: "系列笔记",
-        link: "/series/",
-        items: [
-          { text: "Git", link: "/series/git/" },
-          { text: "Shell", link: "/series/shell/" },
-          { text: "编译器", link: "/series/compiler/" },
-          { text: "操作系统", link: "/series/os/" },
-          { text: "计算机网络", link: "/series/network/" },
-        ],
-      },
-      {
         text: "项目文档",
         link: "/project/",
         items: [
