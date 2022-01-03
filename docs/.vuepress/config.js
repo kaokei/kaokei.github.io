@@ -241,5 +241,8 @@ module.exports = {
         cnzz_web: "1280697181", // CNZZ统计对应的web_id
       },
     ],
+    [
+      "@kaokei/vuepress-plugin-frontmatter" // 增加命令自动生成frontmatter
+    ]
   ],
 };

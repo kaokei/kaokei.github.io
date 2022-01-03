@@ -128,13 +128,23 @@ CNAME www cname.vercel-dns.com
 
 访问路径是根据文件夹结构和文件名确定的。
 
-页面结构是在.vscode/config 文件中配置的，主要是 nav 导航栏和 sidebar 侧边栏配置。
+页面结构是在`.vscode/config` 文件中配置的，主要是 nav 导航栏和 sidebar 侧边栏配置。
 也就是说如果没有配置 nav 和 sidebar，那么就是普通的文章内容展示，就没有 nav 和 sidebar。
 
 nav 导航栏注意可以配置多层级的导航栏，可与配置直接配置外链到 github。
 
 sidebar 可以配置多层级的侧边栏。
 sidebar 可以配置不相关的页面在同一个 sidebar，但是实际上没有必要。
+
+新建页面 markdown 文件。运行`npm run fmt`，实际运行`vuepress fmt docs`。会自动添加 frontmatter。
+
+`_posts` 文件夹下不再区分技术和生活等子文件夹。就是所有的博客文章都放在`_posts` 文件夹下。
+
+可以在`_posts` 文件夹下新建 2021 或者 2022 的归档文件夹。就是把当前`_posts` 中的博客文件转移到归档文件夹中。
+
+除此之外，还可以转移到`30.项目文档`这样的结构化目录中，会自动生成 sidebar。
+
+提供配置功能，重构 sidebar，可以将根目录拆分开来。
 
 ## 域名规范
 
