@@ -13,8 +13,8 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@kaokei/vuepress-plugin-frontmatter": "^1.0.2",
     "@kaokei/vuepress-plugin-tongji": "^1.0.2",
-    "@kaokei/vuepress-plugin-frontmatter": "^1.0.1",
     "axios": "^0.24.0",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
