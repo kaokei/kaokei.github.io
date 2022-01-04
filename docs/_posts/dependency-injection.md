@@ -5,6 +5,7 @@ date: 2021-12-19 16:52:54
 permalink: /pages/6bada4/
 sidebar: auto
 categories: 
+  - 随笔
   - 技术
 tags: 
   - null

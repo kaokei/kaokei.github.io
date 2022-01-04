@@ -4,6 +4,7 @@ date: 2021-12-21 18:45:32
 permalink: /pages/f9d7e8/
 sidebar: auto
 categories: 
+  - 随笔
   - 技术
 tags: 
   - null
