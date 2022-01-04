@@ -2,7 +2,7 @@
 title: gitee自动同步和部署
 date: 2021-12-21 18:45:32
 permalink: /pages/f9d7e8/
-sidebar: false
+sidebar: auto
 categories: 
   - 技术
 tags: 

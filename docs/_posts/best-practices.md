@@ -3,7 +3,7 @@ author: kaokei
 title: 最佳实践指导
 date: 2021-12-19 16:52:54
 permalink: /pages/c8faae/
-sidebar: false
+sidebar: auto
 categories: 
   - 技术
 tags: 

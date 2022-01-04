@@ -3,7 +3,7 @@ author: kaokei
 title: 依赖注入
 date: 2021-12-19 16:52:54
 permalink: /pages/8b786e/
-sidebar: false
+sidebar: auto
 categories: 
   - 技术
 tags: 

@@ -3,7 +3,7 @@ author: kaokei
 title: 参考文章
 date: 2021-12-19 16:52:54
 permalink: /pages/5b7b92/
-sidebar: false
+sidebar: auto
 categories: 
   - 技术
 tags: 

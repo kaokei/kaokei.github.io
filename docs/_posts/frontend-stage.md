@@ -3,7 +3,7 @@ author: kaokei
 title: 前端发展各个阶段
 date: 2021-12-19 16:52:54
 permalink: /pages/37da4b/
-sidebar: false
+sidebar: auto
 categories: 
   - 技术
 tags: 
