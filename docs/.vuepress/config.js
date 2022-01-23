@@ -5,6 +5,10 @@ const htmlModules = require("./config/htmlModules.js");
 // todo: 修改百度收录的账号。
 
 module.exports = {
+  markdown: {
+    lineNumbers: true
+  },
+
   theme: "vdoing", // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
@@ -169,6 +173,8 @@ module.exports = {
 
     "fulltext-search", // 全文搜索
 
+    [ 'mermaidjs', { gantt: { barHeight: 40 }}],
+
     [
       "one-click-copy", // 代码块复制按钮
       {
@@ -181,7 +187,6 @@ module.exports = {
         showInMobile: false, // whether to display on the mobile side, default: false.
       },
     ],
-
     [
       "demo-block", // demo演示模块 https://github.com/xiguaxigua/vuepress-plugin-demo-block
       {
