@@ -1,15 +1,17 @@
 ---
-title: 示例文章
+title: markdown示例文章
 date: 2022-01-11 23:38:37
 permalink: /pages/6e93a2/
 sidebar: auto
 categories:
   - 随笔
 tags:
-  - todo
+  - markdown
+  - vuepress
+  - vdoing
 ---
 
-# 示例文章
+# markdown 示例文章
 
 # 一级标题
 
@@ -129,7 +131,7 @@ _斜体文本_
 
 ## 引用
 
-### 嵌套引用
+**嵌套引用**
 
 > 最外层
 >
@@ -137,7 +139,7 @@ _斜体文本_
 > >
 > > > 第二层嵌套
 
-### 区块中使用列表
+**区块中使用列表**
 
 > 区块中使用列表
 >
@@ -148,7 +150,7 @@ _斜体文本_
 > - 第二项
 > - 第三项
 
-### 列表中使用区块
+**列表中使用区块**
 
 - 第一项
   > 菜鸟教程
@@ -242,8 +244,6 @@ $(document).ready(function () {
 
 ## 图片
 
-![baidu 图标](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png)
-
 ![kaokei 图标](https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png "KAOKEI")
 
 <img title="KAOKEI" alt="kaokei" src="https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png" width="20%">
@@ -251,8 +251,6 @@ $(document).ready(function () {
 :::details 图片
 
 ```markdown
-![baidu 图标](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png)
-
 ![kaokei 图标](https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png "KAOKEI")
 
 <img title="KAOKEI" alt="kaokei" src="https://cdn.jsdelivr.net/gh/kaokei/static-cdn/logo/white/logo@512.png" width="20%">
@@ -496,9 +494,7 @@ _ 下划线
 
 :::
 
-## 自定义组件
-
-### 徽章组件
+## 徽章组件
 
 Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
 
@@ -515,22 +511,6 @@ Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
 ```
 
 :::
-
-### 代码块选项卡
-
-<code-group>
-  <code-block title="YARN" active>
-  ```bash
-  yarn add vuepress-theme-vdoing -D
-  ```
-  </code-block>
-
-  <code-block title="NPM">
-  ```bash
-  npm install vuepress-theme-vdoing -D
-  ```
-  </code-block>
-</code-group>
 
 ## 外部标签
 
