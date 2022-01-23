@@ -26,7 +26,7 @@
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-zooming": "^1.1.7",
-    "vuepress-theme-vdoing": "^1.8.5",
+    "vuepress-theme-vdoing": "^1.9.4",
     "yamljs": "^0.3.0"
   }
 }

@@ -6,7 +6,7 @@ sidebar: auto
 categories:
   - 随笔
 tags:
-  - 
+  - todo
 ---
 # json schema 入门
 
