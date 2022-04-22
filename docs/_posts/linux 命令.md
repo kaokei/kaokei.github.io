@@ -8,6 +8,7 @@ categories:
 tags:
   - todo
 ---
+
 ## 查看文件第 n 行内容
 
 一般应该用不到这个命令，我的使用场景是因为在分析巨型日志文件的时候，编辑器都不能正常工作，只能获取指定行数的日志内容来分析了。
@@ -81,3 +82,28 @@ cat filename | tail -n +y | head -n x
 # 就是表面含义，取文件的第x行到第y行之间的内容
 sed -n 'x,yp' filename
 ```
+
+## 检查端口占用
+
+#### 常用端口
+
+- HTTP – TCP 80
+- HTTPS – TCP 443
+- POP3 – TCP 110
+- SMTP – TCP 25
+- SSH – TCP 22
+- DNS/DOMAIN – TCP/UDP 53
+
+#### 检查命令
+
+- cat /etc/services
+- grep -w 80 /etc/services
+- egrep -w '53/(tcp|udp)' /etc/services
+- grep -E -w '7001/(tcp|udp)' /etc/services
+- lsof -i -P -n | grep LISTEN
+- netstat -tulpn | grep LISTEN
+- netstat -tulpn | grep :443
+- netstat -tulpn
+- ss -tulpn | grep LISTEN
+- ss -tulpn | grep ':22'
+- ss -tulpn

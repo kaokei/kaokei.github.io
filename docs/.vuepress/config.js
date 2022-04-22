@@ -132,7 +132,7 @@ module.exports = {
     footer: {
       createYear: 2019, // 博客创建年份
       copyrightInfo:
-        'kaokei | <a href="https://github.com/kaokei/kaokei.github.io/blob/docs/LICENSE" target="_blank">kaokei License</a>', // 博客版权信息，支持a标签
+        'kaokei | <a href="https://github.com/kaokei/kaokei.github.io/blob/docs/LICENSE" target="_blank">kaokei License</a> | <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备16051049号</a>', // 博客版权信息，支持a标签
     },
 
     // 插入hmtl(广告)模块
