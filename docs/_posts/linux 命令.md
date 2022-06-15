@@ -107,3 +107,10 @@ sed -n 'x,yp' filename
 - ss -tulpn | grep LISTEN
 - ss -tulpn | grep ':22'
 - ss -tulpn
+
+## 常用命令
+
+```bash
+# 找到最大的10个文件
+find . -type f -exec du -h {} + | grep -v 'node_modules' | grep -v 'dist' | grep -v 'build' | grep -v 'temp' | grep -v '.git' | sort -r -h | head -10
+```
