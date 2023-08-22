@@ -66,7 +66,7 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
-    bodyBgImg: 'https://picture.zwc365.com/getbing.jpg',
+    bodyBgImg: 'https://webhook.kaokei.com/api/bing?image=123',
     // bodyBgImg: [
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
     //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
