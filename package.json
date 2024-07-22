@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "analyze": "nuxt analyze",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -18,6 +19,8 @@
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@vueuse/nuxt": "^10.9.0",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
+    "daisyui": "^4.7.3",
+    "less": "^4.2.0",
     "nuxt-lodash": "^2.5.3"
   }
 }
