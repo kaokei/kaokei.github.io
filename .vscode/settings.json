@@ -1,0 +1,9 @@
+{
+  "css.customData": [".vscode/tailwind.json"],
+  "editor.formatOnSave": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+}

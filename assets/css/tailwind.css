@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * 针对特定html元素的基础样式
+ */
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+
+  /* ... */
+}
+
+/**
+ * 针对特定组件的样式，或者覆盖第三方组件的样式
+ */
+@layer components {
+  .same-height-card .ant-card-actions {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .same-height-card .ant-card-body {
+    padding: 16px 16px 64px 16px !important;
+  }
+}
+
+/**
+ * 针对特定工具类的样式
+ * 优先级最高，可以覆盖组件样式
+ */
+@layer utilities {
+  .border-circle {
+    border-radius: 80rem;
+  }
+}

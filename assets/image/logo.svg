@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>画板</title>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(16.000000, 96.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="KK">
+                <polygon id="路径" points="218.305085 0 260.542034 0 260.542034 155.970048 416.426859 0 476.298824 0 343.274204 128.958475 480 320 423.611495 320 311.70535 159.455412 260.542034 208.468346 260.542034 320 218.305085 320"></polygon>
+                <polygon id="路径" transform="translate(130.847458, 160.000000) scale(-1, 1) translate(-130.847458, -160.000000) " points="0 0 42.2369497 0 42.2369497 155.970048 198.121774 0 257.993739 0 124.969119 128.958475 261.694915 320 205.30641 320 93.4002651 159.455412 42.2369497 208.468346 42.2369497 320 0 320"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
