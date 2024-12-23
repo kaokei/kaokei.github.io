@@ -1,0 +1,1 @@
+import{_ as t,v as o,x as e,t as r}from"./SUEf9uj3.js";const n={},c={class:"px-6 py-10"};function l(a,s){return r(),o("div",c,s[0]||(s[0]=[e("article",{class:"prose mb-4 lg:prose-xl"},[e("h2",null,"关于我"),e("p",null,"好好学习，天天向上")],-1)]))}const _=t(n,[["render",l]]);export{_ as default};
