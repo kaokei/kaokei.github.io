@@ -69,10 +69,10 @@ const data = ref([
         :key="index"
         class="shadow-6 flex h-32 items-center justify-center bg-white"
       >
-        <a
+        <NuxtLink
           v-if="item.href"
           class="group link-hover link flex items-center justify-center"
-          :href="item.href"
+          :to="item.href"
           target="_blank"
         >
           <span class="text-4xl">{{ item.title }}</span>
@@ -88,7 +88,7 @@ const data = ref([
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </NuxtLink>
         <span v-else class="text-4xl">{{ item.title }}</span>
       </div>
     </div>

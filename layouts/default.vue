@@ -25,15 +25,31 @@
             </svg>
           </label>
         </div>
-        <a class="btn btn-ghost" href="/">
+        <NuxtLink class="btn btn-ghost" to="/">
           <img src="~/assets/image/logo.svg" alt="logo" class="h-8" />
           <span>kaokei</span>
-        </a>
+        </NuxtLink>
         <div class="ml-auto hidden flex-none lg:block">
           <ul class="menu menu-horizontal p-0">
             <!-- Navbar menu content here -->
-            <li><a class="btn btn-ghost" href="/p/malicious">恶意</a></li>
-            <li><a class="btn btn-ghost" href="/p/about">关于</a></li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/urlcode"
+                >URL编解码</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/base64code"
+                >Base64编解码</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/jsonlint"
+                >JSON格式化</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/about">关于</NuxtLink>
+            </li>
           </ul>
         </div>
       </div>
@@ -49,9 +65,25 @@
       <ul class="menu min-h-full w-80 bg-white p-4">
         <!-- Sidebar content here -->
         <li>
-          <a class="btn btn-ghost justify-start" href="/p/malicious">恶意</a>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/urlcode"
+            >URL编解码</NuxtLink
+          >
         </li>
-        <li><a class="btn btn-ghost justify-start" href="/p/about">关于</a></li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/base64code"
+            >Base64编解码</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/jsonlint"
+            >JSON格式化</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/about"
+            >关于</NuxtLink
+          >
+        </li>
       </ul>
     </div>
   </div>

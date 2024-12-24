@@ -3,6 +3,26 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   vite: {
+    // build: {
+    //   rollupOptions: {
+    //     output: {
+    //       manualChunks(id) {
+    //         console.log('manualChunks id => ', id);
+    //         if (id.includes('node_modules')) {
+    //           if (
+    //             id.includes('vue') ||
+    //             id.includes('dayjs') ||
+    //             id.includes('lodash-es') ||
+    //             id.includes('@kaokei')
+    //           ) {
+    //             return 'vendor-vue-dayjs-lodash-kaokei';
+    //           }
+    //           return 'vendor-deps';
+    //         }
+    //       },
+    //     },
+    //   },
+    // },
     esbuild: {
       // https://github.com/nuxt/nuxt/issues/21756#issuecomment-1846568373
       tsconfigRaw: {},
@@ -25,13 +45,11 @@ export default defineNuxtConfig({
       meta: [
         {
           name: 'description',
-          content:
-            'kaokei',
+          content: 'kaokei',
         },
         {
           name: 'keyword',
-          content:
-            'kaokei',
+          content: 'kaokei',
         },
       ],
       link: [
@@ -49,13 +67,10 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    'dayjs-nuxt',
-  ],
+  modules: ['@nuxtjs/tailwindcss', 'dayjs-nuxt'],
   dayjs: {
     locales: ['zh-cn'],
     plugins: ['relativeTime', 'duration', 'advancedFormat'],
     defaultLocale: 'zh-cn',
   },
-})
+});
