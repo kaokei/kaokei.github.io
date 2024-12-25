@@ -48,6 +48,16 @@
               >
             </li>
             <li>
+              <NuxtLink class="btn btn-ghost" to="/p/jslint"
+                >JS格式化</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/csslint"
+                >CSS格式化</NuxtLink
+              >
+            </li>
+            <li>
               <NuxtLink class="btn btn-ghost" to="/p/about">关于</NuxtLink>
             </li>
           </ul>
@@ -77,6 +87,16 @@
         <li>
           <NuxtLink class="btn btn-ghost justify-start" to="/p/jsonlint"
             >JSON格式化</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/jslint"
+            >JS格式化</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/csslint"
+            >CSS格式化</NuxtLink
           >
         </li>
         <li>

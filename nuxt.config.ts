@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     //   rollupOptions: {
     //     output: {
     //       manualChunks(id) {
-    //         console.log('manualChunks id => ', id);
     //         if (id.includes('node_modules')) {
     //           if (
     //             id.includes('vue') ||
