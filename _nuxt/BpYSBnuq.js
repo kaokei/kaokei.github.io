@@ -1,1 +1,0 @@
-import{_ as o,c as r,a as e,o as t}from"./WYdR3-yq.js";const c={},n={class:"px-6 py-10"};function a(l,s){return t(),r("div",n,s[0]||(s[0]=[e("article",{class:"prose mb-4 lg:prose-xl"},[e("h2",null,"关于我"),e("p",null,"好好学习，天天向上")],-1)]))}const _=o(c,[["render",a]]);export{_ as default};
