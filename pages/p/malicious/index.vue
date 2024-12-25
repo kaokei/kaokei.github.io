@@ -1,10 +1,5 @@
 <script lang="ts" setup>
-import { definePageMeta, ref, useSeoMeta } from '#imports';
-
-definePageMeta({
-  name: 'p_malicious',
-  key: (route) => route.name as string,
-});
+import { ref, useSeoMeta } from '#imports';
 
 useSeoMeta({
   title: 'kaokei',
@@ -67,7 +62,7 @@ const data = ref([
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="shadow-6 flex h-32 items-center justify-center bg-white"
+        class="flex h-32 items-center justify-center bg-white shadow-6"
       >
         <NuxtLink
           v-if="item.href"

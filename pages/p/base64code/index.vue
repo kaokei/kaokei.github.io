@@ -2,19 +2,8 @@
 import copy from 'copy-to-clipboard';
 import Base64 from 'crypto-js/enc-base64';
 import Utf8 from 'crypto-js/enc-utf8';
-import {
-  definePageMeta,
-  nextTick,
-  reactive,
-  useSeoMeta,
-  useTemplateRef,
-} from '#imports';
+import { nextTick, reactive, useSeoMeta, useTemplateRef } from '#imports';
 import { isValidBase64 } from '~/utils/base64';
-
-definePageMeta({
-  name: 'p_base64code',
-  key: (route) => route.name as string,
-});
 
 useSeoMeta({
   title: 'kaokei',
@@ -113,7 +102,12 @@ const handleMousedown2 = (e: any) => {
 <template>
   <div class="px-6 py-10">
     <article class="prose mb-4 lg:prose-xl">
-      <h2>Base64编解码</h2>
+      <h2>Base64编码/解码</h2>
+      <ol>
+        <li>请在左侧文本输入框区域输入任意字符串；</li>
+        <li>点击中间区域的编码按钮/解码按钮；</li>
+        <li>右侧区域是展示编码结果/解码结果的地方。</li>
+      </ol>
     </article>
 
     <div ref="container" class="flex w-full flex-col lg:flex-row">

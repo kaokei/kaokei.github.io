@@ -9,7 +9,7 @@ useSeoMeta({
 <template>
   <div class="px-6 py-10">
     <article class="prose mb-4 lg:prose-xl">
-      <h2>URL编码/解码</h2>
+      <h2>GZIP</h2>
       <p>好好学习，天天向上</p>
     </article>
 

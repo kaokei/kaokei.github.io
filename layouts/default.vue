@@ -33,6 +33,12 @@
           <ul class="menu menu-horizontal p-0">
             <!-- Navbar menu content here -->
             <li>
+              <NuxtLink class="btn btn-ghost" to="/p/repl">REPL</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink class="btn btn-ghost" to="/p/gzip">GZIP</NuxtLink>
+            </li>
+            <li>
               <NuxtLink class="btn btn-ghost" to="/p/urlcode"
                 >URL编解码</NuxtLink
               >
@@ -48,9 +54,7 @@
               >
             </li>
             <li>
-              <NuxtLink class="btn btn-ghost" to="/p/jslint"
-                >JS格式化</NuxtLink
-              >
+              <NuxtLink class="btn btn-ghost" to="/p/jslint">JS格式化</NuxtLink>
             </li>
             <li>
               <NuxtLink class="btn btn-ghost" to="/p/csslint"
@@ -74,6 +78,16 @@
       ></label>
       <ul class="menu min-h-full w-80 bg-white p-4">
         <!-- Sidebar content here -->
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/repl"
+            >REPL</NuxtLink
+          >
+        </li>
+        <li>
+          <NuxtLink class="btn btn-ghost justify-start" to="/p/gzip"
+            >GZIP</NuxtLink
+          >
+        </li>
         <li>
           <NuxtLink class="btn btn-ghost justify-start" to="/p/urlcode"
             >URL编解码</NuxtLink

@@ -1,10 +1,5 @@
 <script lang="ts" setup>
-import { definePageMeta, ref, useSeoMeta } from '#imports';
-
-definePageMeta({
-  name: 'p_jsonlint',
-  key: (route) => route.name as string,
-});
+import { useSeoMeta } from '#imports';
 
 useSeoMeta({
   title: 'kaokei',
