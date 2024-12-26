@@ -33,19 +33,13 @@
           <ul class="menu menu-horizontal p-0">
             <!-- Navbar menu content here -->
             <li>
-              <NuxtLink external class="btn btn-ghost" to="/tool"
-                >工具集</NuxtLink
-              >
+              <a class="btn btn-ghost" to="/tool">工具集</a>
             </li>
             <li>
-              <NuxtLink external class="btn btn-ghost" to="/game"
-                >游戏集</NuxtLink
-              >
+              <a class="btn btn-ghost" to="/game">游戏集</a>
             </li>
             <li>
-              <NuxtLink external class="btn btn-ghost" to="/word"
-                >背单词</NuxtLink
-              >
+              <a class="btn btn-ghost" to="/word">背单词</a>
             </li>
             <li>
               <NuxtLink class="btn btn-ghost" to="/about">关于</NuxtLink>
@@ -65,19 +59,13 @@
       <ul class="menu min-h-full w-80 bg-white p-4">
         <!-- Sidebar content here -->
         <li>
-          <NuxtLink external class="btn btn-ghost justify-start" to="/tool"
-            >工具集</NuxtLink
-          >
+          <a class="btn btn-ghost justify-start" to="/tool">工具集</a>
         </li>
         <li>
-          <NuxtLink external class="btn btn-ghost justify-start" to="/game"
-            >游戏集</NuxtLink
-          >
+          <a class="btn btn-ghost justify-start" to="/game">游戏集</a>
         </li>
         <li>
-          <NuxtLink external class="btn btn-ghost justify-start" to="/word"
-            >背单词</NuxtLink
-          >
+          <a class="btn btn-ghost justify-start" to="/word">背单词</a>
         </li>
         <li>
           <NuxtLink class="btn btn-ghost justify-start" to="/about"
