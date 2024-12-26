@@ -72,4 +72,9 @@ export default defineNuxtConfig({
     plugins: ['relativeTime', 'duration', 'advancedFormat'],
     defaultLocale: 'zh-cn',
   },
+  routeRules: {
+    '/tool': { ssr: false },
+    '/game': { ssr: false },
+    '/word': { ssr: false },
+  },
 });
