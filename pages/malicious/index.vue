@@ -44,13 +44,15 @@ const data = ref([
   },
   { title: '恶意分享' },
   { title: '恶意救人' },
+  { title: '善意腐败' },
+  { title: '善意违法' },
 ]);
 </script>
 
 <template>
   <div class="px-6 py-10">
     <article class="prose mb-4 lg:prose-xl">
-      <h2>这个世界充满着恶意</h2>
+      <h2>这个世界充满着恶意，也充满着善意。</h2>
       <p>说你是你就是！不是也是！</p>
       <p>说你不是你就不是！是也不是！</p>
       <p>好好学习，天天向上</p>
